@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    android:gravity="center"
+    tools:context=".Audio">
+
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="350dp" />
+
+    <Button
+        android:id="@+id/connect_button"
+        android:layout_width="fill_parent"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:textSize="60px"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Connect BT" />
+
+    <Button
+        android:id="@+id/select_button"
+        android:layout_width="fill_parent"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="false"
+        android:textSize="60px"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Select Audio" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="fill_parent"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="false"
+        android:textSize="60px"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Send" />
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="fill_parent"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="false"
+        android:textSize="60px"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Clear" />
+
+
+</LinearLayout>
