@@ -18,6 +18,7 @@ RTM (Read Through Me) is an Android application designed to enhance accessibilit
 
 **Getting Started:**
 To get started with RTM, clone the repository and import the project into Android Studio. Make sure to configure the necessary dependencies and hardware components for seamless operation.
+**NB**- App code inside the Master Branch, Please checkout
 
 **Contributing:**
 Contributions to RTM are welcome! Whether it's bug fixes, feature enhancements, or documentation improvements, feel free to submit pull requests. Please follow the guidelines outlined in the CONTRIBUTING.md file.
